@@ -61,6 +61,9 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="CVp-9q-q0Z" secondAttribute="trailing" id="ZgV-pH-dup"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5gA-Di-F7i" kind="show" id="GBN-5E-4KT"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -85,6 +88,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="20.758928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qxe-DF-ibz">
+            <objects>
+                <viewController id="5gA-Di-F7i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KA4-75-UDa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em4-bX-mnp">
+                                <rect key="frame" x="347" y="160" width="47" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hometown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-ax-8ZC">
+                                <rect key="frame" x="311" y="189" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar" translatesAutoresizingMaskIntoConstraints="NO" id="j9a-56-2Lx">
+                                <rect key="frame" x="20" y="160" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Vei-T6-v1J"/>
+                                    <constraint firstAttribute="width" secondItem="j9a-56-2Lx" secondAttribute="height" multiplier="1:1" id="uAw-di-OOi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRU-QZ-xIC">
+                                <rect key="frame" x="20" y="340" width="95" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="List of Hobbies" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sVK-Pe-pbg">
+                                <rect key="frame" x="20" y="392" width="374" height="450"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mf2-ax-8ZC" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" id="FcF-zi-TRV"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="top" secondItem="LRU-QZ-xIC" secondAttribute="bottom" constant="20" id="OEs-ZO-OLm"/>
+                            <constraint firstItem="ktP-Xt-fna" firstAttribute="bottom" secondItem="sVK-Pe-pbg" secondAttribute="bottom" constant="20" id="QEL-UM-RBJ"/>
+                            <constraint firstItem="j9a-56-2Lx" firstAttribute="leading" secondItem="ktP-Xt-fna" secondAttribute="leading" constant="20" id="VAH-V6-ENF"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="leading" secondItem="LRU-QZ-xIC" secondAttribute="leading" id="Yn8-sc-VrM"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" id="bKg-9w-RVM"/>
+                            <constraint firstItem="LRU-QZ-xIC" firstAttribute="top" secondItem="j9a-56-2Lx" secondAttribute="bottom" constant="30" id="de4-UO-A4f"/>
+                            <constraint firstItem="Mf2-ax-8ZC" firstAttribute="top" secondItem="Em4-bX-mnp" secondAttribute="bottom" constant="8" id="gJl-ae-O3b"/>
+                            <constraint firstItem="j9a-56-2Lx" firstAttribute="top" secondItem="Em4-bX-mnp" secondAttribute="top" id="mYr-kC-vdn"/>
+                            <constraint firstItem="Em4-bX-mnp" firstAttribute="top" secondItem="ktP-Xt-fna" secondAttribute="top" constant="20" id="sPs-VD-ZMt"/>
+                            <constraint firstItem="ktP-Xt-fna" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" constant="20" id="sxg-H2-SJK"/>
+                            <constraint firstItem="LRU-QZ-xIC" firstAttribute="leading" secondItem="j9a-56-2Lx" secondAttribute="leading" id="x2H-Au-cHW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ktP-Xt-fna"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORh-BI-bxT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1915.9420289855075" y="350.89285714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Edq-7Y-s5C">
@@ -164,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpD-oq-iGz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="-222"/>
+            <point key="canvasLocation" x="1917" y="-342"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="95T-xS-tAm">
@@ -185,4 +250,7 @@
             <point key="canvasLocation" x="180" y="21"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Avatar" width="400" height="400"/>
+    </resources>
 </document>
