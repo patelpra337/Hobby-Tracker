@@ -132,17 +132,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Mf2-ax-8ZC" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" id="FcF-zi-TRV"/>
-                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="top" secondItem="LRU-QZ-xIC" secondAttribute="bottom" constant="20" id="OEs-ZO-OLm"/>
-                            <constraint firstItem="ktP-Xt-fna" firstAttribute="bottom" secondItem="sVK-Pe-pbg" secondAttribute="bottom" constant="20" id="QEL-UM-RBJ"/>
                             <constraint firstItem="j9a-56-2Lx" firstAttribute="leading" secondItem="ktP-Xt-fna" secondAttribute="leading" constant="20" id="VAH-V6-ENF"/>
-                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="leading" secondItem="LRU-QZ-xIC" secondAttribute="leading" id="Yn8-sc-VrM"/>
-                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" id="bKg-9w-RVM"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" id="ZzP-KD-FGi"/>
                             <constraint firstItem="LRU-QZ-xIC" firstAttribute="top" secondItem="j9a-56-2Lx" secondAttribute="bottom" constant="30" id="de4-UO-A4f"/>
                             <constraint firstItem="Mf2-ax-8ZC" firstAttribute="top" secondItem="Em4-bX-mnp" secondAttribute="bottom" constant="8" id="gJl-ae-O3b"/>
                             <constraint firstItem="j9a-56-2Lx" firstAttribute="top" secondItem="Em4-bX-mnp" secondAttribute="top" id="mYr-kC-vdn"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="top" secondItem="LRU-QZ-xIC" secondAttribute="bottom" constant="20" id="r9W-DH-A1Z"/>
                             <constraint firstItem="Em4-bX-mnp" firstAttribute="top" secondItem="ktP-Xt-fna" secondAttribute="top" constant="20" id="sPs-VD-ZMt"/>
                             <constraint firstItem="ktP-Xt-fna" firstAttribute="trailing" secondItem="Em4-bX-mnp" secondAttribute="trailing" constant="20" id="sxg-H2-SJK"/>
                             <constraint firstItem="LRU-QZ-xIC" firstAttribute="leading" secondItem="j9a-56-2Lx" secondAttribute="leading" id="x2H-Au-cHW"/>
+                            <constraint firstItem="ktP-Xt-fna" firstAttribute="bottom" secondItem="sVK-Pe-pbg" secondAttribute="bottom" constant="20" id="yYC-mE-Gdt"/>
+                            <constraint firstItem="sVK-Pe-pbg" firstAttribute="leading" secondItem="LRU-QZ-xIC" secondAttribute="leading" id="zCp-nE-Q4F"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ktP-Xt-fna"/>
                     </view>

@@ -12,6 +12,10 @@
 		87A041A0233464E300517AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A0419E233464E300517AC9 /* Main.storyboard */; };
 		87A041A2233464E400517AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A041A1233464E400517AC9 /* Assets.xcassets */; };
 		87A041A5233464E400517AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A041A3233464E400517AC9 /* LaunchScreen.storyboard */; };
+		ABD1D67D233C4F6D0038C6E6 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D67C233C4F6D0038C6E6 /* AddFriendViewController.swift */; };
+		ABD1D67F233C4F8B0038C6E6 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D67E233C4F8B0038C6E6 /* FriendDetailViewController.swift */; };
+		ABD1D681233C4FCB0038C6E6 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D680233C4FCB0038C6E6 /* FriendTableViewCell.swift */; };
+		ABD1D683233C4FE60038C6E6 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1D682233C4FE60038C6E6 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		87A041A1233464E400517AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A041A4233464E400517AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87A041A6233464E400517AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD1D67C233C4F6D0038C6E6 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		ABD1D67E233C4F8B0038C6E6 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		ABD1D680233C4FCB0038C6E6 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		ABD1D682233C4FE60038C6E6 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				87A0419A233464E300517AC9 /* AppDelegate.swift */,
 				87A0419C233464E300517AC9 /* FriendsTableViewController.swift */,
+				ABD1D67C233C4F6D0038C6E6 /* AddFriendViewController.swift */,
+				ABD1D67E233C4F8B0038C6E6 /* FriendDetailViewController.swift */,
+				ABD1D680233C4FCB0038C6E6 /* FriendTableViewCell.swift */,
+				ABD1D682233C4FE60038C6E6 /* Friend.swift */,
 				87A0419E233464E300517AC9 /* Main.storyboard */,
 				87A041A1233464E400517AC9 /* Assets.xcassets */,
 				87A041A3233464E400517AC9 /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD1D67D233C4F6D0038C6E6 /* AddFriendViewController.swift in Sources */,
 				87A0419D233464E300517AC9 /* FriendsTableViewController.swift in Sources */,
+				ABD1D681233C4FCB0038C6E6 /* FriendTableViewCell.swift in Sources */,
+				ABD1D683233C4FE60038C6E6 /* Friend.swift in Sources */,
+				ABD1D67F233C4F8B0038C6E6 /* FriendDetailViewController.swift in Sources */,
 				87A0419B233464E300517AC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
